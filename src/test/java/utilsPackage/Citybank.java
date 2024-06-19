@@ -63,7 +63,7 @@ public class Citybank {
             	
             }
             
-            // Validation
+            
             String actValue = driver.findElement(By.xpath("//span[@id='displayTotalValue']")).getText().replace("$", "").replace(",", "");;
             if (Double.parseDouble(expValue) == Double.parseDouble(actValue)) {
                 System.out.println("Passed");
