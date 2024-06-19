@@ -74,7 +74,7 @@ public class Citybank {
                 ExcelUtils.setCellData(filePath, "Sheet1", i, 6, "Fail");
                 ExcelUtils.fillRedColor(filePath, "Sheet1", i, 6);
             }
-            Thread.sleep(200);
+            Thread.sleep(600);
         }
 //        driver.quit();
     }
